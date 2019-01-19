@@ -14,6 +14,19 @@
 		2677EC0521F0E71D003EE23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC0321F0E71D003EE23B /* LaunchScreen.storyboard */; };
 		2677EC1021F0E71D003EE23B /* TripSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677EC0F21F0E71D003EE23B /* TripSTests.swift */; };
 		2677EC1B21F0E71D003EE23B /* TripSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677EC1A21F0E71D003EE23B /* TripSUITests.swift */; };
+		2677EC3C21F31ACC003EE23B /* Icon-Home-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC3921F31ACC003EE23B /* Icon-Home-29x29@1x.png */; };
+		2677EC3F21F31B47003EE23B /* Icon-Home-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC3E21F31B47003EE23B /* Icon-Home-60x60@3x.png */; };
+		2677EC4121F31CB7003EE23B /* Icon-Home-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC4021F31CB7003EE23B /* Icon-Home-29x29@2x.png */; };
+		2677EC4521F32205003EE23B /* Icon-Add-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC4321F32205003EE23B /* Icon-Add-60x60@3x.png */; };
+		2677EC4621F32205003EE23B /* Icon-Add-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC4421F32205003EE23B /* Icon-Add-29x29@2x.png */; };
+		2677EC4821F32218003EE23B /* Icon-Add-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC4721F32218003EE23B /* Icon-Add-29x29@1x.png */; };
+		2677EC4D21F32302003EE23B /* Icon-Clip-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC4A21F32302003EE23B /* Icon-Clip-29x29@1x.png */; };
+		2677EC4E21F32302003EE23B /* Icon-Clip-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC4B21F32302003EE23B /* Icon-Clip-60x60@3x.png */; };
+		2677EC4F21F32302003EE23B /* Icon-Clip-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC4C21F32302003EE23B /* Icon-Clip-29x29@2x.png */; };
+		2677EC5B21F341E9003EE23B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2677EC5A21F341E9003EE23B /* GoogleService-Info.plist */; };
+		31677E9774BDCA92FAC99145 /* Pods_TripSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78DA035716D00C9BBA2EAE /* Pods_TripSUITests.framework */; };
+		8D47CA6A03CD9F82F673ECEF /* Pods_TripSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB3E087695002F71CB432E6 /* Pods_TripSTests.framework */; };
+		AF987A69954380455B963B9A /* Pods_TripS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410EB6A3102A389D3D8709B5 /* Pods_TripS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07AF757400A80E940D2E7138 /* Pods-TripSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TripSUITests/Pods-TripSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A55ADEB1D64A53A9CF00600 /* Pods-TripSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TripSTests/Pods-TripSTests.release.xcconfig"; sourceTree = "<group>"; };
+		241E934F1BC5D9622B0A0D70 /* Pods-TripSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TripSUITests/Pods-TripSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2677EBF721F0E71C003EE23B /* TripS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2677EBFA21F0E71C003EE23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2677EBFC21F0E71C003EE23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,22 @@
 		2677EC1621F0E71D003EE23B /* TripSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2677EC1A21F0E71D003EE23B /* TripSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSUITests.swift; sourceTree = "<group>"; };
 		2677EC1C21F0E71D003EE23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2677EC3921F31ACC003EE23B /* Icon-Home-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Home-29x29@1x.png"; sourceTree = "<group>"; };
+		2677EC3E21F31B47003EE23B /* Icon-Home-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Home-60x60@3x.png"; sourceTree = "<group>"; };
+		2677EC4021F31CB7003EE23B /* Icon-Home-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Home-29x29@2x.png"; sourceTree = "<group>"; };
+		2677EC4321F32205003EE23B /* Icon-Add-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Add-60x60@3x.png"; sourceTree = "<group>"; };
+		2677EC4421F32205003EE23B /* Icon-Add-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Add-29x29@2x.png"; sourceTree = "<group>"; };
+		2677EC4721F32218003EE23B /* Icon-Add-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Add-29x29@1x.png"; sourceTree = "<group>"; };
+		2677EC4A21F32302003EE23B /* Icon-Clip-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Clip-29x29@1x.png"; sourceTree = "<group>"; };
+		2677EC4B21F32302003EE23B /* Icon-Clip-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Clip-60x60@3x.png"; sourceTree = "<group>"; };
+		2677EC4C21F32302003EE23B /* Icon-Clip-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Clip-29x29@2x.png"; sourceTree = "<group>"; };
+		2677EC5A21F341E9003EE23B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2999B484B72AEF96EA86D179 /* Pods-TripS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TripS/Pods-TripS.debug.xcconfig"; sourceTree = "<group>"; };
+		410EB6A3102A389D3D8709B5 /* Pods_TripS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB3E087695002F71CB432E6 /* Pods_TripSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F78DA035716D00C9BBA2EAE /* Pods_TripSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F656A314A56655C9E3619E /* Pods-TripS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TripS/Pods-TripS.release.xcconfig"; sourceTree = "<group>"; };
+		6B60B406CAE4BAFD142973AA /* Pods-TripSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TripSTests/Pods-TripSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF987A69954380455B963B9A /* Pods_TripS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D47CA6A03CD9F82F673ECEF /* Pods_TripSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31677E9774BDCA92FAC99145 /* Pods_TripSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +116,8 @@
 				2677EC0E21F0E71D003EE23B /* TripSTests */,
 				2677EC1921F0E71D003EE23B /* TripSUITests */,
 				2677EBF821F0E71C003EE23B /* Products */,
+				B2432D36A86EE78BDC3805F0 /* Pods */,
+				ED93BB79AFC7B42C830C8E9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +136,12 @@
 			children = (
 				2677EBFA21F0E71C003EE23B /* AppDelegate.swift */,
 				2677EBFC21F0E71C003EE23B /* ViewController.swift */,
+				2677EC5A21F341E9003EE23B /* GoogleService-Info.plist */,
 				2677EBFE21F0E71C003EE23B /* Main.storyboard */,
 				2677EC0121F0E71D003EE23B /* Assets.xcassets */,
+				2677EC4921F32302003EE23B /* ClipIconSet */,
+				2677EC4221F32205003EE23B /* AddIconSet */,
+				2677EC3721F31ACC003EE23B /* HomeIconSet */,
 				2677EC0321F0E71D003EE23B /* LaunchScreen.storyboard */,
 				2677EC0621F0E71D003EE23B /* Info.plist */,
 			);
@@ -125,6 +166,59 @@
 			path = TripSUITests;
 			sourceTree = "<group>";
 		};
+		2677EC3721F31ACC003EE23B /* HomeIconSet */ = {
+			isa = PBXGroup;
+			children = (
+				2677EC4021F31CB7003EE23B /* Icon-Home-29x29@2x.png */,
+				2677EC3921F31ACC003EE23B /* Icon-Home-29x29@1x.png */,
+				2677EC3E21F31B47003EE23B /* Icon-Home-60x60@3x.png */,
+			);
+			path = HomeIconSet;
+			sourceTree = "<group>";
+		};
+		2677EC4221F32205003EE23B /* AddIconSet */ = {
+			isa = PBXGroup;
+			children = (
+				2677EC4721F32218003EE23B /* Icon-Add-29x29@1x.png */,
+				2677EC4321F32205003EE23B /* Icon-Add-60x60@3x.png */,
+				2677EC4421F32205003EE23B /* Icon-Add-29x29@2x.png */,
+			);
+			path = AddIconSet;
+			sourceTree = "<group>";
+		};
+		2677EC4921F32302003EE23B /* ClipIconSet */ = {
+			isa = PBXGroup;
+			children = (
+				2677EC4A21F32302003EE23B /* Icon-Clip-29x29@1x.png */,
+				2677EC4B21F32302003EE23B /* Icon-Clip-60x60@3x.png */,
+				2677EC4C21F32302003EE23B /* Icon-Clip-29x29@2x.png */,
+			);
+			path = ClipIconSet;
+			sourceTree = "<group>";
+		};
+		B2432D36A86EE78BDC3805F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2999B484B72AEF96EA86D179 /* Pods-TripS.debug.xcconfig */,
+				62F656A314A56655C9E3619E /* Pods-TripS.release.xcconfig */,
+				6B60B406CAE4BAFD142973AA /* Pods-TripSTests.debug.xcconfig */,
+				0A55ADEB1D64A53A9CF00600 /* Pods-TripSTests.release.xcconfig */,
+				07AF757400A80E940D2E7138 /* Pods-TripSUITests.debug.xcconfig */,
+				241E934F1BC5D9622B0A0D70 /* Pods-TripSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED93BB79AFC7B42C830C8E9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				410EB6A3102A389D3D8709B5 /* Pods_TripS.framework */,
+				4CB3E087695002F71CB432E6 /* Pods_TripSTests.framework */,
+				4F78DA035716D00C9BBA2EAE /* Pods_TripSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2677EC1F21F0E71D003EE23B /* Build configuration list for PBXNativeTarget "TripS" */;
 			buildPhases = (
+				C2D7ABA1D12AD3A0DA655C84 /* [CP] Check Pods Manifest.lock */,
 				2677EBF321F0E71C003EE23B /* Sources */,
 				2677EBF421F0E71C003EE23B /* Frameworks */,
 				2677EBF521F0E71C003EE23B /* Resources */,
+				D72CF39795662AF1192891CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2677EC2221F0E71D003EE23B /* Build configuration list for PBXNativeTarget "TripSTests" */;
 			buildPhases = (
+				57A43BD7D6CFEE98530E250D /* [CP] Check Pods Manifest.lock */,
 				2677EC0721F0E71D003EE23B /* Sources */,
 				2677EC0821F0E71D003EE23B /* Frameworks */,
 				2677EC0921F0E71D003EE23B /* Resources */,
@@ -167,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2677EC2521F0E71D003EE23B /* Build configuration list for PBXNativeTarget "TripSUITests" */;
 			buildPhases = (
+				3E051F44FE487D26C7104B2F /* [CP] Check Pods Manifest.lock */,
 				2677EC1221F0E71D003EE23B /* Sources */,
 				2677EC1321F0E71D003EE23B /* Frameworks */,
 				2677EC1421F0E71D003EE23B /* Resources */,
@@ -229,9 +327,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2677EC4621F32205003EE23B /* Icon-Add-29x29@2x.png in Resources */,
+				2677EC4521F32205003EE23B /* Icon-Add-60x60@3x.png in Resources */,
+				2677EC3C21F31ACC003EE23B /* Icon-Home-29x29@1x.png in Resources */,
 				2677EC0521F0E71D003EE23B /* LaunchScreen.storyboard in Resources */,
+				2677EC4E21F32302003EE23B /* Icon-Clip-60x60@3x.png in Resources */,
+				2677EC4821F32218003EE23B /* Icon-Add-29x29@1x.png in Resources */,
+				2677EC4F21F32302003EE23B /* Icon-Clip-29x29@2x.png in Resources */,
+				2677EC5B21F341E9003EE23B /* GoogleService-Info.plist in Resources */,
+				2677EC4121F31CB7003EE23B /* Icon-Home-29x29@2x.png in Resources */,
+				2677EC3F21F31B47003EE23B /* Icon-Home-60x60@3x.png in Resources */,
 				2677EC0221F0E71D003EE23B /* Assets.xcassets in Resources */,
 				2677EC0021F0E71C003EE23B /* Main.storyboard in Resources */,
+				2677EC4D21F32302003EE23B /* Icon-Clip-29x29@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +358,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E051F44FE487D26C7104B2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57A43BD7D6CFEE98530E250D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D7ABA1D12AD3A0DA655C84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72CF39795662AF1192891CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TripS/Pods-TripS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripS/Pods-TripS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2677EBF321F0E71C003EE23B /* Sources */ = {
@@ -430,6 +615,7 @@
 		};
 		2677EC2021F0E71D003EE23B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2999B484B72AEF96EA86D179 /* Pods-TripS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +633,7 @@
 		};
 		2677EC2121F0E71D003EE23B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F656A314A56655C9E3619E /* Pods-TripS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +651,7 @@
 		};
 		2677EC2321F0E71D003EE23B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B60B406CAE4BAFD142973AA /* Pods-TripSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +672,7 @@
 		};
 		2677EC2421F0E71D003EE23B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A55ADEB1D64A53A9CF00600 /* Pods-TripSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +693,7 @@
 		};
 		2677EC2621F0E71D003EE23B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AF757400A80E940D2E7138 /* Pods-TripSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +713,7 @@
 		};
 		2677EC2721F0E71D003EE23B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241E934F1BC5D9622B0A0D70 /* Pods-TripSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
