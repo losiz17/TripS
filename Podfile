@@ -7,6 +7,7 @@ target 'TripS' do
 
   # Pods for TripS
   pod 'Firebase/Database'
+  pod 'Firebase/Core'
   target 'TripSTests' do
     inherit! :search_paths
     # Pods for testing
