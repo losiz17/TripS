@@ -9,10 +9,11 @@
 import UIKit
 import Firebase
 
-class AddViewController: UIViewController {
+class AddViewController: UIViewController , UINavigationControllerDelegate, UIImagePickerControllerDelegate{
     
     @IBOutlet var contentTextView: UITextView!
     @IBOutlet weak var TextField: UITextField!
+    @IBOutlet var photoImageView: UIImageView!
     
     // インスタンス変数
     var DBRef:DatabaseReference!
@@ -29,6 +30,29 @@ class AddViewController: UIViewController {
         let data = ["name": contentTextView.text!]
         DBRef.child("user/01").setValue(data)
     }
+    
+//    アルバムから写真の取得
+    @IBAction func onTappedAlbumButton(){
+        presentPickerController(sourceType: .photoLibrary)
+        
+    }
+//    カメラとアルバムの呼び出しメソッド
+    func presentPickerController(sourceType: UIImagePickerController.SourceType){
+        if UIImagePickerController.isSourceTypeAvailable(sourceType){
+            let picker = UIImagePickerController()
+            picker.sourceType = sourceType
+            picker.delegate = self
+            self.present(picker, animated: true,completion: nil)
+        }
+    }
+    
+//写真が選択された時に呼ばれるメソッド
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]){
+        self.dismiss(animated: true, completion: nil)
+        //画像の出力
+        photoImageView.image = info[.originalImage]as? UIImage
+    }
+
 
     /*
     // MARK: - Navigation
