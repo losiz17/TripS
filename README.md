@@ -1,2 +1,1 @@
 # TripS
-旅のしおりをShareしたいSNS
